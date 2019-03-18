@@ -1,0 +1,11 @@
+micronaut:
+    config-client:
+        enabled: true
+
+consul:
+  client:
+    host: 127.0.0.1
+    registration:
+      enabled: true
+      check:
+        enabled: true
